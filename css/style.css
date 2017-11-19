@@ -1,0 +1,182 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Proza Libre', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.margin-top-5 {
+  margin-top: 5%;
+}
+.margin-top-10 {
+  margin-top: 10%;
+}
+.margin-top-15 {
+  margin-top: 15%;
+}
+.margin-top-20 {
+  margin-top: 20%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.image-container {
+  min-height: 360px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.image-container .section {
+  width: 100%;
+}
+
+#index-banner {
+  background-image: url("https://images.unsplash.com/photo-1422565167033-dec8fad92aba?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=dbb52ec22ee3ad3e987f6d9b0a18f33c");
+  background-position: center bottom;
+}
+
+#writing-hand {
+  background-image: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=23409ca1eddf8aac8c428dd67932273d");
+}
+
+#abstractSequential {
+  background-image: url("https://images.unsplash.com/photo-1450107579224-2d9b2bf1adc8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=97eaf0e57f2ba7b512fa6820110eabd1https://images.unsplash.com/photo-1460518451285-97b6aa326961?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=defd0bd90d1fcbbfb51951b3f44a8b83");
+}
+
+#abstractRandom {
+  background-image: url("https://images.unsplash.com/photo-1460518451285-97b6aa326961?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=defd0bd90d1fcbbfb51951b3f44a8b83");
+}
+
+#concreteSequential {
+  background-image: url("https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=36b5d305a2093a36eb93092aa6810e6f");
+}
+
+#concreteRandom {
+  background-image: url("https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=a2db0d42a6a7810cbbfeb8ea6340b741");
+}
+
+.fixed-element {
+  background-attachment: fixed;
+}
+
+.inside-image-container {
+  background-color: rgba(255,255,255,.4);
+  min-height: inherit;
+  top: 0;
+  width: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+}
+
+.opaque-container {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.answers-container {
+  margin: 5% 5% 10%;
+  padding-left: 15%;
+  overflow: hidden;
+}
+
+.results-possibilities-container {
+  margin: 20px;
+  overflow: hidden;
+}
+
+.disclaimer {
+  text-align: justify;
+  font-size: small;
+  line-height: 1.8rem;
+  font-style: italic;
+}
+
+.types-navigation {
+  padding-top: 5%;
+}
+
+.card {
+  height: 200px;
+}
+
+.percentage-breakdown-box {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.percentage-breakdown-box p {
+  margin: 0;
+}
+
+@media only screen and (max-width : 992px) {
+  nav .brand-logo {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .container {
+    width: 85%;
+  }
+
+  .image-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  .image-container img {
+    max-width: 100%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  font-size: small;
+}
+
+.page-footer h5 {
+  font-size: 16px;
+}
